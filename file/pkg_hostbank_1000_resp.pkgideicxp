@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<picxp:PICXPModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:picxp="http://www.hundsun.com/ares/studio/pkgide/picxp/v1.0">
+  <basicmodel resname="pkg_hostbank_1000_resp" note="一本通定期开户" createdate="2014-04-14-10:28:02" rescreator="吕昌" lastmodify="2014-04-14-10:28:02" lastmodifer="吕昌" subclass="图形柜面到核心">
+    <versioncontrol reversion="$Rev$ " date="$Date$ " author="$Author$  " url="$URL$ "/>
+  </basicmodel>
+  <fields xsi:type="picxp:SubPacket">
+    <icxppacket referdata="pkg_hostbank_pub_resp"/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/grzwm" note="个人中文名18A" tranlen="18" convexp="18">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/ybtzh" note="一本通帐号19A" tranlen="19" convexp="19">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/sxh" note="顺序号3A" tranlen="3" convexp="3">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/xyhdys" note="下一打印行数3P0" tranlen="2" convexp="3|0">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/xxts" note="信息提示1A" tranlen="1" convexp="1">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/dqr" note="到期日8P0" tranlen="5" convexp="8|0">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/ll" note="利率9P7" tranlen="5" convexp="9|7">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:SubPacket" tranlen="[/cfcs]" cycletype="1_for循环">
+    <icxppacket referdata="subpkg_hostbank_1000_resp_mx"/>
+  </fields>
+</picxp:PICXPModel>

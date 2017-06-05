@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<picxp:PICXPModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:picxp="http://www.hundsun.com/ares/studio/pkgide/picxp/v1.0">
+  <basicmodel resname="subpkg_hostbank_1000_req_mx" note="明细" createdate="2017-02-24-09:54:04" rescreator="吕昌" lastmodify="2017-02-24-09:54:04" lastmodifer="吕昌" subclass="图形柜面到核心">
+    <versioncontrol reversion="$Rev$ " date="$Date$ " author="$Author$  " url="$URL$ "/>
+  </basicmodel>
+  <fields xsi:type="picxp:PICXPField" fldref="/list|N/cq" note="存期" tranlen="3" convexp="3">
+    <convfunc referdata="ATOE"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/list|N/zxll" note="执行利率" tranlen="5" convexp="9|7">
+    <convfunc referdata="COMPRESSA2E"/>
+    <dctname/>
+  </fields>
+</picxp:PICXPModel>

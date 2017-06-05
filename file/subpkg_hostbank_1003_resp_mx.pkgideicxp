@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<picxp:PICXPModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:picxp="http://www.hundsun.com/ares/studio/pkgide/picxp/v1.0">
+  <basicmodel resname="pkg_hostbank_1010_resp_mx" note="打折类交易公共返回明细" createdate="2014-04-23-15:25:53" rescreator="吕昌" lastmodify="2014-04-23-15:25:53" lastmodifer="吕昌" subclass="图形柜面到核心">
+    <versioncontrol reversion="$Rev$ " date="$Date$ " author="$Author$  " url="$URL$ "/>
+  </basicmodel>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/yjyrq1" note="原交易日期8P0" tranlen="5" convexp="8|0">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/sxh1" note="顺序号3A" tranlen="3" convexp="3">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/zydm1" note="摘要代码3A" tranlen="3" convexp="3">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/qxr1" note="起息日8P0" tranlen="5" convexp="8|0">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/cq1" note="存期3A" tranlen="3" convexp="3">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/ywdh1" note="业务代号4A" tranlen="4" convexp="4">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/ll1" note="利率9P7" tranlen="5" convexp="9|7">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/hbdh1" note="货币代号2A" tranlen="2" convexp="2">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/jdbj1" note="借贷标记1A" tranlen="1" convexp="1">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/jyje1" note="交易金额15P2" tranlen="8" convexp="15|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/zhye1" note="帐户余额15P2" tranlen="8" convexp="15|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/List|N/jygy1" note="交易柜员6A" tranlen="6" convexp="6">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+</picxp:PICXPModel>

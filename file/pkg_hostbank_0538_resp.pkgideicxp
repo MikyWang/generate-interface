@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<picxp:PICXPModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:picxp="http://www.hundsun.com/ares/studio/pkgide/picxp/v1.0">
+  <basicmodel resname="pkg_hostbank_0538_resp" note="定期开户可用产品查询输出接口1" createdate="2017-2-24-10:29:39" rescreator="王齐源" lastmodify="2017-2-24-10:29:39" lastmodifer="王齐源" subclass="核心计结息改造项目">
+    <versioncontrol reversion="$Rev$ " date="$Date$ " author="$Author$  " url="$URL$ "/>
+  </basicmodel>
+         <fields xsi:type="picxp:SubPacket">
+    <icxppacket referdata="pkg_hostbank_pub_resp"/>
+  </fields>
+   <fields xsi:type="picxp:PICXPField" fldref="/zjls" note="总记录数6P0" tranlen="4" convexp="6|0">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields> <fields xsi:type="picxp:PICXPField" fldref="/wjm" note="文件名10A" tranlen="10" convexp="10">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+ </picxp:PICXPModel>

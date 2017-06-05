@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<picxp:PICXPModel xmi:version="2.0" 
+  xmlns:xmi="http://www.omg.org/XMI" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns:picxp="http://www.hundsun.com/ares/studio/pkgide/picxp/v1.0">
+  <basicmodel resname="pkg_hostbank_0610_resp" note="卡折定期销户应答" createdate="2014-04-11-17:01:48" rescreator="于少洋" lastmodify="2014-04-11-17:01:48" lastmodifer="于少洋" subclass="核心计结息改造项目">
+    <versioncontrol reversion="$Rev$ " date="$Date$ " author="$Author$  " url="$URL$ "/>
+  </basicmodel>
+  <fields xsi:type="picxp:SubPacket">
+    <icxppacket referdata="pkg_hostbank_pub_resp"/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/grzwm" note="个人中文名18A" tranlen="18" convexp="18">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/ybtzh" note="一本通帐号19A" tranlen="19" convexp="19">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/zhh" note="帐户号25A" tranlen="25" convexp="25">
+    <convfunc referdata="ETOA_YHZH_HX2QD"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/xydyhs" note="下一打印行数3P0" tranlen="2" convexp="3|0">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/xxts" note="信息提示1A" tranlen="1" convexp="1">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/xzxh" note="销帐序号9A" tranlen="9" convexp="9">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/sqye" note="上期余额15P2" tranlen="8" convexp="15|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/ljlx" note="累计利息13P2" tranlen="7" convexp="13|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/ljhqlx" note="累计活期利息13P2" tranlen="7" convexp="13|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/wyhqlx" note="违约活期利息13P2" tranlen="7" convexp="13|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/bzlx" note="保值利息13P2" tranlen="7" convexp="13|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/yjjlx" note="应加 / 减利息13P2" tranlen="7" convexp="13|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/hqsds" note="活期所得税13P2" tranlen="7" convexp="13|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/dqsds" note="定期所得税13P2" tranlen="7" convexp="13|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/hjje" note="合计金额15P2" tranlen="8" convexp="15|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/kxhbz" note="开销户标志1A" tranlen="1" convexp="1">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/tctdbs" note="通存通兑标识1A" tranlen="1" convexp="1">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/qxr" note="起息日8P0" tranlen="5" convexp="8|0">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/ywdh" note="业务代号4A" tranlen="4" convexp="4">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/cq" note="存期3A" tranlen="3" convexp="3">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/cjyflx" note="冲减已付利息13P2" tranlen="7" convexp="13|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/wyyqll" note="违约/逾期利率9P7" tranlen="5" convexp="9|7">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/zhzxll" note="账户执行利率9P7" tranlen="5" convexp="9|7">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:SubPacket" tranlen="[/cfcs]" cycletype="1_for循环">
+    <icxppacket referdata="subpkg_hostbank_pub_resp_dzmx"/>
+  </fields>
+</picxp:PICXPModel>
