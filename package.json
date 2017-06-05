@@ -1,0 +1,24 @@
+{
+  "name": "generate-interface",
+  "version": "1.0.0",
+  "description": "自动生成接口文档",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikyWang/generate-interface.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikyWang/generate-interface/issues"
+  },
+  "homepage": "https://github.com/MikyWang/generate-interface#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-xlsx": "^0.7.4",
+    "xml2js": "^0.4.17"
+  }
+}

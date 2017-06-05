@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<picxp:PICXPModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:picxp="http://www.hundsun.com/ares/studio/pkgide/picxp/v1.0">
+  <basicmodel resname="pkg_vost_6000_req" note="开卡交易响应" createdate="2013-10-13-15:26:55" rescreator="朱根良" lastmodify="2013-10-13-15:26:55" lastmodifer="朱根良" subclass="IC卡业务">
+    <versioncontrol reversion="$Rev$ " date="$Date$ " author="$Author$  " url="$URL$ "/>
+  </basicmodel>
+  <fields xsi:type="picxp:PICXPField" fldref="/khh" note="客户号10A " tranlen="10" convexp="10">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/grzwm" note="个人中文名18*O" tranlen="18" convexp="18">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/ybtzh" note="一本通帐号19A " tranlen="19" convexp="19">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/pzdh" note="凭证代号12A " tranlen="12" convexp="12">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/kh" note="卡号19A " tranlen="19" convexp="19">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/zjhm" note="证件号码20A " tranlen="20" convexp="20">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/zhye" note="帐户余额15P2" tranlen="8" convexp="15|2">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/xydyhs" note="下一打印行数3P0 " tranlen="2" convexp="3|0">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/kmh" note="科目号5A  " tranlen="5" convexp="5">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/xxts" note="信息提示1A" tranlen="1" convexp="1">
+    <convfunc referdata="ETOA"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:PICXPField" fldref="/jls" note="记录数2P0" tranlen="2" convexp="2|0">
+    <convfunc referdata="COMPRESSE2A"/>
+    <dctname/>
+  </fields>
+  <fields xsi:type="picxp:SubPacket" tranlen="[/jls]" cycletype="1_for循环">
+    <icxppacket referdata="subpkg_corebank_0610_mx"/>
+  </fields>
+</picxp:PICXPModel>
